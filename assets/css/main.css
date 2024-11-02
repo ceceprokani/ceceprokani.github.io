@@ -1434,3 +1434,13 @@ section,
   --bs-btn-disabled-bg: var(--accent-color);
   --bs-btn-disabled-border-color: var(--accent-color);
 }
+
+.hide-mobile {
+  display: block;
+}
+
+@media (max-width: 575px) {
+  .hide-mobile {
+    display: none;
+  }
+}
