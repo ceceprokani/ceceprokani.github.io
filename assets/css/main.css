@@ -247,8 +247,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   position: fixed;
   top: 15px;
@@ -719,6 +720,7 @@ section,
 
 .skills .content-skill .items-skill {
   display: flex;    /* Buat setiap konten tetap dalam baris */
+  column-gap: 10px;
   gap: 10px;
   width: max-content;
   padding-left: 20px;
@@ -728,6 +730,7 @@ section,
 .skills .content-skill .items-skill-2 {
   display: flex;    /* Buat setiap konten tetap dalam baris */
   gap: 10px;
+  column-gap: 10px;
   width: max-content;
   padding-left: 20px;
   animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
@@ -736,6 +739,7 @@ section,
 .skills .content-skill .items-skill-3 {
   display: flex;    /* Buat setiap konten tetap dalam baris */
   gap: 10px;
+  column-gap: 10px;
   width: max-content;
   padding-left: 20px;
   animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
