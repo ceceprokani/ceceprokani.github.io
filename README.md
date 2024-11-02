@@ -19,7 +19,7 @@ Website portofolio ini menampilkan karya dan pengalaman profesional saya dengan 
 
 1. **Clone repositori ini**:
     ```bash
-    git clone https://github.com/username/portfolio-website.git
+    git clone https://github.com/ceceprokani/ceceprokani.github.io
     ```
 2. **Buka file utama**:
     - Temukan file `index.html` di folder proyek.
