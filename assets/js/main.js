@@ -13,11 +13,19 @@
    * Header toggle
    */
   const headerToggleBtn = document.querySelector('.header-toggle');
+  const headerToggleBtnIcon = document.querySelector('.header-toggle-icon');
+  const headerToggleBtnText = document.querySelector('.header-toggle-text');
 
   function headerToggle() {
     document.querySelector('#header').classList.toggle('header-show');
-    headerToggleBtn.classList.toggle('bi-list');
-    headerToggleBtn.classList.toggle('bi-x');
+    headerToggleBtnIcon.classList.toggle('bi-list');
+    headerToggleBtnIcon.classList.toggle('bi-x');
+
+    if (headerToggleBtnIcon.classList.contains('bi-x')) {
+      headerToggleBtnText.innerHTML = 'Close'
+    } else {
+      headerToggleBtnText.innerHTML = 'Menu'
+    }
   }
   headerToggleBtn.addEventListener('click', headerToggle);
 

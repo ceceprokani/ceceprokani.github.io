@@ -242,13 +242,13 @@ h6 {
 .header .header-toggle {
   color: var(--contrast-color);
   background-color: var(--accent-color);
-  font-size: 22px;
+  font-size: 12pt;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  border-radius: 10px;
+  padding: 10px;
   cursor: pointer;
   position: fixed;
   top: 15px;
@@ -714,12 +714,12 @@ section,
 
 .skills .content-skill{
   overflow: clip;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 .skills .content-skill .items-skill {
   display: flex;    /* Buat setiap konten tetap dalam baris */
-  gap: 20px;
+  gap: 10px;
   width: max-content;
   padding-left: 20px;
   animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
@@ -727,7 +727,7 @@ section,
 
 .skills .content-skill .items-skill-2 {
   display: flex;    /* Buat setiap konten tetap dalam baris */
-  gap: 20px;
+  gap: 10px;
   width: max-content;
   padding-left: 20px;
   animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
@@ -735,7 +735,7 @@ section,
 
 .skills .content-skill .items-skill-3 {
   display: flex;    /* Buat setiap konten tetap dalam baris */
-  gap: 20px;
+  gap: 10px;
   width: max-content;
   padding-left: 20px;
   animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
@@ -1382,8 +1382,8 @@ section,
   mask-image: linear-gradient(
     to right,
     transparent,
-    black 5rem,
-    black calc(100% - 5rem),
+    black 1rem,
+    black calc(100% - 1rem),
     transparent
   );
 }
@@ -1397,4 +1397,8 @@ section,
 
 .custom-rounded {
   border-radius: 16px;
+}
+
+.text-accent {
+  color: var(--accent-color);
 }
