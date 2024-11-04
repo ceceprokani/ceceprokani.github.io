@@ -742,7 +742,7 @@ section,
   column-gap: 10px;
   width: max-content;
   padding-left: 20px;
-  animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
+  animation: marquee var(--speed, 20s) linear infinite reverse;
 }
 
 .skills .content-skill .items-skill-3 {
@@ -751,7 +751,7 @@ section,
   column-gap: 10px;
   width: max-content;
   padding-left: 20px;
-  animation: marquee var(--speed, 20s) linear infinite var(--direction, forwards);
+  animation: marquee var(--speed, 15s) linear infinite var(--direction, forwards);
 }
 
 .skills .content-skill .items-skill .card .card-body {
